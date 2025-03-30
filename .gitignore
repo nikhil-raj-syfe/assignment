@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+build/
+
+# Misc
+.DS_Store
+*.pem
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# Frontend (Create React App)
+survey-app/node_modules/
+survey-app/build/
+survey-app/coverage/
+
+# Logs
+logs
+*.log
+
+# Cache
+.cache/
+.npm/
+
+# Optional eslint cache
+.eslintcache
